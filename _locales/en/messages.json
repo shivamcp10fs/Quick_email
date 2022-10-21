@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "Quick Email",
+        "description": "Extension name"
+    },
+    "extDescription": {
+        "message": "Access popular email accounts via quick links instantly from your new tab page!",
+        "description": "Description"
+    }
+}
