@@ -17,7 +17,7 @@ body {
 
 body {
   color: #333;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .mastfoot {
@@ -418,10 +418,11 @@ ul li[h]::after {
 }
 
 .suggestion-text {
-  position: absolute;
-  bottom: -29px;
+  /* position: absolute; */
+  /* bottom: -29px; */
   color: white;
   font-size: 9px;
+  max-width: inherit;
 }
 .icon-container {
   transition: all 0.2s ease-in-out;
@@ -429,4 +430,12 @@ ul li[h]::after {
 
 .icon-container:hover {
   transform: scale(1.1);
+}
+.row {
+  margin: 0 !important;
+}
+@media screen and (max-width: 1143px) {
+  .input-group {
+    height: 4rem !important;
+  }
 }
