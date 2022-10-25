@@ -3,6 +3,7 @@ a,
 a:focus,
 a:hover {
   color: white;
+  margin: 0 !important;
 }
 
 /*
@@ -347,7 +348,9 @@ ul li[h]::after {
   display: inline-block;
   /* font-family: "Knewave", cursive; */
   color: #495057;
+  /* min-width: 225px; */
   min-width: 115px;
+
   max-width: 115px;
 }
 
@@ -402,7 +405,7 @@ ul li[h]::after {
 }
 
 #quickEmailSearchTxt {
-  width: 327px;
+  width: 19vw;
 }
 
 .frmQuickSearch {
@@ -419,4 +422,11 @@ ul li[h]::after {
   bottom: -29px;
   color: white;
   font-size: 9px;
+}
+.icon-container {
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-container:hover {
+  transform: scale(1.1);
 }
